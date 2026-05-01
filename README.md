@@ -99,13 +99,42 @@ The dataset is included in this repository:
 
 ## How to Run
 
+### Prerequisites
+- Python 3.9+
+- [Ollama](https://ollama.com) installed on your system
+
+### Steps
+
+**1. Clone the repo**
 ```bash
 git clone https://github.com/2hani2/SLM-to-LLM-router.git
 cd SLM-to-LLM-router
+```
+
+**2. Install dependencies**
+```bash
 pip install -r requirements.txt
-python train.py
+```
+
+**3. Install Ollama + pull Mistral 7B**
+
+Download Ollama from https://ollama.com, install it, then run:
+```bash
+ollama pull mistral
+```
+⚠️ This downloads ~4GB, make sure you have space.
+
+**4. Download NanoQA model weights**
+
+Download `pytorch_model.bin` from [HuggingFace](https://huggingface.co/2hani2/nanoqa-v3)
+and place it in a folder called `model/` inside the project.
+
+**5. Run the app**
+```bash
 python app.py
 ```
+
+Open your browser at `http://localhost:5000`
 
 ---
 
