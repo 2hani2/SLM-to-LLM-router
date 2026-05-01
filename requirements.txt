@@ -1,4 +1,10 @@
+torch>=2.0.0
+transformers>=4.35.0
+flask>=3.0.0
 numpy
 pandas
 scikit-learn
 matplotlib
+rapidfuzz
+datasets
+ollama
