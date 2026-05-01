@@ -131,7 +131,7 @@ and place it in a folder called `model/` inside the project.
 
 **5. Run the app**
 ```bash
-python app.py
+python new_app_3.py
 ```
 
 Open your browser at `http://localhost:5000`
