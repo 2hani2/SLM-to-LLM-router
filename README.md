@@ -157,5 +157,4 @@ Open your browser at `http://localhost:5000`
 
 ## Author
 
-Venisa
-Manipal Institute of Technology
+Venisa Ivan Tellis
